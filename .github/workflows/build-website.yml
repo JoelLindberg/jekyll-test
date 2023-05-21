@@ -44,5 +44,6 @@ jobs:
         # Configure the commit author.
         git-config-name: 'Joel Lindberg'
         git-config-email: '<>'
+        token: ${{ secrets.JEKYLL_TEST }}
         # Remove outdated files from the target directory.
         clean: true
